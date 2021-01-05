@@ -1,10 +1,11 @@
-# OnFocusHR   Astro focuser with 28BYJ-48 motor
+# OnFocusHR  
+  is Astro focuser for small stepper motor 28BYJ-48 
 
-Copyright (C) 2018-2021 Roman Hujer
+  Copyright (C) 2018-2021 Roman Hujer
 
 
-base on  OnFocus  by  Howard Dutton project  https://github.com/hjd1964/OnFocus
-Copyright (C) 2015 Howard Dutton
+Base on  OnFocus  by  Howard Dutton project  https://github.com/hjd1964/OnFocus
+   Copyright (C) 2015 Howard Dutton
 
 
 Wiring diagram and PCB on [EasyEDA](https://oshwlab.com/hujer.roman/astro-fokuser)  
