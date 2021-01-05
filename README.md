@@ -1,5 +1,5 @@
 # OnFocusHR  
-  is Astro focuser for small stepper motor 28BYJ-48 
+  is Astro focuser with small stepper motor 28BYJ-48 
 
   Copyright (C) 2018-2021 Roman Hujer
 
