@@ -1,5 +1,17 @@
-# OnFocus
-Arduino UNO/Mega328 based stepper motor focuser control.
+# OnFocusHR   Astro focuser with 28BYJ-48 motor
 
-See http://www.stellarjourney.com/index.php?r=site/software_focuser for ASCOM driver, etc.
-See http://www.stellarjourney.com/index.php?r=site/equipment_focuser for a look at the hardware I used.
+Copyright (C) 2018-2021 Roman Hujer
+
+
+base on  OnFocus  by  Howard Dutton project  https://github.com/hjd1964/OnFocus
+Copyright (C) 2015 Howard Dutton
+
+
+Wiring diagram and PCB on [EasyEDA](https://oshwlab.com/hujer.roman/astro-fokuser)  
+
+
+See http://www.stellarjourney.com/index.php?r=site/software_focuser for ASCOM driver, etc. 
+
+OnFocus driver for INDI Ekos (StellarMater or Astroberry) available too.
+
+
