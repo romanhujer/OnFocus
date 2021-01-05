@@ -1,4 +1,5 @@
 // Command processing
+// Copyright (C) 2015 Howard Dutton
 
 byte bufferPtr_serial_zero=0;
 boolean serial_zero_ready=false;
@@ -228,4 +229,3 @@ boolean atol2(char *a, long *i) {
   *i=l;
   return true;
 }
-
