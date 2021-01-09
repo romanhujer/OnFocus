@@ -42,23 +42,20 @@
 // Settings
 #define CHKSUM0_OFF            // checksum, normally not used
  
-#define MICROS_PER_STEP 10 // microns (1/1000 of a mm) of focus travel per step
-                               // my Meade 8" SCT has about 32tpi on the focuser knob
-                               // so... 1/32" per rotation (0.793mm)
-                               // 20:1 reduced 24 stepper motor has 480 steps per rotation
-                               // 20 tooth motor pulley and 60 tooth focuser pully for a 3:1 reduction
-                               // 480*3 = 1440 steps per focuser rotation
-                               // 0.793mm/1440 = 0.551 microns
-                               // now the SCT has a f2 primary and a final focal ratio of f10 so
-                               // I expect that the actual focal plane moves by approximately 5x
-                               // the amount that the primary mirror moves... 0.551 * 5 = 2.756 microns
-                               // or about 4mm per focuser knob turn, which is about 5/32" (0.156".)
-                               // This also works out to about 0.1 thousandths of an inch per step.
- 
+#define MICROS_PER_STEP 0.75 // microns (1/1000 of a mm) of focus travel per step.
+// NOTE:
+// Motor rotation  64 steps
+// Gears ratio 64:1 
+// Full rotation is 4096 steps
+// Beld  ratio  2:1
+// Crayford focuser staff dia  4mm  
+//      1000*4*Pi / (4096*2) = 1.5 um / per step 
+
+
 #define MaxRate 1             // milliseconds per step (default 10, 0.01 seconds)
-                               // how fast the focus moves... 1440*0.002=2.9 seconds per turn
-                               // this is about 18 seconds for one inch of travel
-                               // movement starts and stops at 8x slower than this
+                              // how fast the focus moves... 1440*0.002=2.9 seconds per turn
+                              // this is about 18 seconds for one inch of travel
+                              // movement starts and stops at 8x slower than this
 // --------------------------------------------------------------------------------------------
 
 // for stepper motor control via step/dir type stepper driver attached to the pins defined below
